@@ -1,6 +1,6 @@
 {
   "name": "QCTester",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Package of features to provide communication between HP ALM (Quality Center) and local scripts designed to execute tests of programs.",
   "main": "AutoTest.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "dateformat": "^2.0.0",
     "string.prototype.repeat": "^0.2.0",
     "buffer-concat": "^1.0.0",
-    "qc": "git+https://github.com/bergerrc/QC.js.git#^0.0.2"
+    "qc": "git+https://github.com/bergerrc/QC.js.git"
   },
   "keywords": [
     "HPALM",

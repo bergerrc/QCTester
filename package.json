@@ -1,0 +1,40 @@
+{
+  "name": "QCTester",
+  "version": "0.1.0",
+  "description": "Package of features to provide communication between HP ALM (Quality Center) and local scripts designed to execute tests of programs.",
+  "main": "AutoTest.js",
+  "scripts": {
+    "test": "mocha ../test/*.js --timeout 30000 --reporter spec"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "mocha-logger": "^1.0.1"
+  },
+  "dependencies": {
+    "promise": "^7.0.4",
+    "extend": "^3.0.1",
+    "xlsx": "^0.11.3",
+    "dateformat": "^2.0.0",
+    "string.prototype.repeat": "^0.2.0",
+    "buffer-concat": "^1.0.0",
+    "qc": "git+https://github.com/bergerrc/QC.js.git#^0.0.2"
+  },
+  "keywords": [
+    "HPALM",
+    "QC",
+    "QualityCenter",
+    "Tester",
+    "Javascript Tester"
+  ],
+  "author": "Ricardo R Custodio",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bergerrc/QCTester.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bergerrc/QCTester/issues"
+  },
+  "homepage": "https://github.com/bergerrc/QCTester"
+}

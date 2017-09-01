@@ -1,0 +1,10 @@
+{
+"server": "http://server/qcbin",
+"port": "80",
+"domain": "domain",
+"project": "project_name",
+"user": "username",
+"password": "password",
+"defaultQuery": "status['No Run' or Failed or 'Retest' or 'Not Completed']",
+"alwaysCreateRun": true
+}

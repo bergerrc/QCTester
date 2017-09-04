@@ -1,5 +1,5 @@
 {
-  "name": "QCTester",
+  "name": "qctester",
   "version": "0.1.0",
   "description": "Package of features to provide communication between HP ALM (Quality Center) and local scripts designed to execute tests of programs.",
   "main": "AutoTest.js",

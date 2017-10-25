@@ -301,7 +301,7 @@ AutoTest.prototype.run = function(options){
 				}.bind(this),treatError) );
 				console.log(this.getLogColor(idx),"buscando TesteSet "+iteration.testSetId+"...");
 			}
-			queryArr = iteration.query? iteration.query.concat( queryArr ): queryArr.concat( this.options.defaultQuery );
+			queryArr = iteration.query? iteration.query.split(",").concat( queryArr ): queryArr.concat( this.options.defaultQuery );
 			pArr.push(qcApi.get('/test-instances' + (iteration.testInstanceId?"/"+iteration.testInstanceId:""), {"query": queryArr})
 			.then(function(testInstances){
 				var pTiArr = [];
